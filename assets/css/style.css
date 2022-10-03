@@ -1232,6 +1232,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 /**
  * responsive larger than 450px screen
  */
+ 
+ @media (max-width: 460px) {
+
+  .sidebar.active {
+    max-height: 420px !important;
+   }
+
+}
+
 
 @media (min-width: 450px) {
 
@@ -1240,10 +1249,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
-  .sidebar.active {
-    max-height: 420px !important;
- }
 
 
 
@@ -1255,6 +1260,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
+
+
 
 
 
